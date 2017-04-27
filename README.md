@@ -1,6 +1,8 @@
 # VueJS Resources
 A big ol' list of VueJS stuff
 
+**Note:** I'm pretty new to this whole testing thing so somethings might not be the correct way to do things, but I've just given it a go. If you are more experiences please fork this and edit the examples.
+
 ## <a name="table-of-contents"></a>Table of contents
 
 * [Unit Testing](#unit-testing)
