@@ -12,6 +12,7 @@ A big ol' list of VueJS stuff
 
 I find testing Vue components super hard to test.
 
+* [Testing example](https://gist.github.com/roberthamel/670640351ccac7a63630ec8b68537455)
 * [VueJS Unit Testing](https://vuejs.org/v2/guide/unit-testing.html)
 * [Slides on Unit Testing (tricky to understand)](https://www.slideshare.net/coulix/vuejs-testing)
 
