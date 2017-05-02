@@ -20,3 +20,18 @@ I find testing Vue components super hard to test.
 If found that Vuex is way easier to test that doing Vue components.
 
 * [Vuex Unit testing](https://vuex.vuejs.org/en/testing.html)
+
+
+* [Globally access styles - alias](https://github.com/vuejs/vue-loader/issues/328)
+
+## Examples
+* [White label app - ReactJS](https://github.com/hazmi/white-label-app)
+
+## Webpack
+* [Using Scss in VueJS 2](https://medium.com/@mahesh.ks/using-sass-scss-in-vue-js-2-d472af0facf9)
+* [Globally access styles - alias](https://github.com/keydone/newBlog/blob/develop/build/webpack.base.conf.js)
+* [Components with multiple themes](https://github.com/webpack/webpack/issues/1096)
+* [How to extract multiple theme stylesheets with webpack?](http://stackoverflow.com/questions/38383889/how-to-extract-multiple-theme-stylesheets-with-webpack)
+
+## Misc
+* [Sass theming](https://webdesign.tutsplus.com/tutorials/how-to-use-sass-to-build-one-project-with-multiple-themes--cms-22104)
