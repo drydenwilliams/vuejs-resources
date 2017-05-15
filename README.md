@@ -8,6 +8,21 @@ A big ol' list of VueJS stuff
 * [Unit Testing](#unit-testing)
 * [Vuex Unit Testing](#vuex-unit-testing)
 
+
+## Great resources
+
+[Testing Vuex-Dependent Vue.js Components](https://alligator.io/vuejs/testing-vuex-vue/)
+[Testing component props](https://vuejs.org/v2/guide/unit-testing.html#Writing-Testable-Components)
+[Testing component data](https://alligator.io/vuejs/unit-testing-karma-mocha/)
+[Testing with Mocks](https://github.com/vuejs/vue-loader/blob/master/docs/en/workflow/testing-with-mocks.md)
+[Testing with Mocks with Avoriaz](https://www.coding123.org/mock-vuex-in-vue-unit-tests/)
+
+[Testing language example](https://github.com/cbrown-tribpub/karma-browserify-vuejs/blob/master/tests/example.spec.js)
+
+
+
+
+
 ## <a id="unit-testing"></a>Unit Testing
 
 I find testing Vue components super hard to test.
