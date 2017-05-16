@@ -110,11 +110,10 @@ import Vue from 'vue'
 import CheeseList from 'path/to/CheeseList.vue'
 
 describe('MyComponent', () => {
-  it('should have a created hook', () => {
-    expect(typeof CheeseList.created).toBe('function')
-  })
-  it('should get the time granularity from store', () => {
-    const state = {
+  let vm
+
+  beforeEach(() => {
+     const state = {
       cheeses: [
         'brie',
         'stilton'
@@ -135,15 +134,18 @@ describe('MyComponent', () => {
     // When you extend it you get all of the options e.g. cheeseList
     const Ctrl = Vue.extend(CheeseList)
 
-    const vm = new Vue({
+    vm = new Vue({
       template: '<div><test ref="component"></test></div>',
       store: mockStore,
       components: {
         'test': CheeseList
       }
     }).$mount()
-
-    // Testing created
+  })
+  it('should have a created hook', () => {
+    expect(typeof CheeseList.created).toBe('function')
+  })
+  it('should get the time granularity from store', () => {
     expect(vm.cheeseList).toBe(2)
   })
 })
