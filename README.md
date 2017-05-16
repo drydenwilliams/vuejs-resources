@@ -48,3 +48,23 @@ If found that Vuex is way easier to test that doing Vue components.
 
 ## Misc
 * [Sass theming](https://webdesign.tutsplus.com/tutorials/how-to-use-sass-to-build-one-project-with-multiple-themes--cms-22104)
+
+
+## Examples 
+
+### Test a hook
+
+```javascript 
+export default {
+ name: 'myComponent',
+ created () {}
+}
+```
+
+```javascript
+describe('Calendar', () => {
+  it('should have a created hook', () => {
+    expect(typeof Calender.created).toBe('function')
+  })
+})
+```
