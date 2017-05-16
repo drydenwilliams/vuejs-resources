@@ -93,7 +93,9 @@ describe('MyComponent', () => {
   })
   // Mount an instance and inspect the render output
   it('renders the correct message', () => {
+    // create constructor
     const Ctor = Vue.extend(MyComponent)
+    // create an instance of MyComponent and mount it on an element
     const vm = new Ctor().$mount()
     expect(vm.$el.textContent).toBe('bye!')
   })
@@ -101,3 +103,48 @@ describe('MyComponent', () => {
 ```
 
 ### Testing a mounted component 
+
+```javascript
+// Import Vue and the component being tested
+import Vue from 'vue'
+import CheeseList from 'path/to/CheeseList.vue'
+
+describe('MyComponent', () => {
+  it('should have a created hook', () => {
+    expect(typeof CheeseList.created).toBe('function')
+  })
+  it('should get the time granularity from store', () => {
+    const state = {
+      cheeses: [
+        'brie',
+        'stilton'
+      ]
+    }
+
+    const getters = {
+      getListOfCheeses: (state) => state.listOfCheeses
+    }
+
+    const options = {
+      state,
+      getters
+    }
+
+    const mockStore = new Vuex.Store(options)
+
+    // When you extend it you get all of the options e.g. cheeseList
+    const Ctrl = Vue.extend(CheeseList)
+
+    const vm = new Vue({
+      template: '<div><test ref="component"></test></div>',
+      store: mockStore,
+      components: {
+        'test': CheeseList
+      }
+    }).$mount()
+
+    // Testing created
+    expect(vm.cheeseList).toBe(2)
+  })
+})
+```
