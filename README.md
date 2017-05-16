@@ -99,3 +99,5 @@ describe('MyComponent', () => {
   })
 })
 ```
+
+### Testing a mounted component 
