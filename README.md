@@ -11,15 +11,13 @@ A big ol' list of VueJS stuff
 
 ## Great resources
 
-[Testing Vuex-Dependent Vue.js Components](https://alligator.io/vuejs/testing-vuex-vue/)
-[Testing component props](https://vuejs.org/v2/guide/unit-testing.html#Writing-Testable-Components)
-[Testing component data](https://alligator.io/vuejs/unit-testing-karma-mocha/)
-[Testing with Mocks](https://github.com/vuejs/vue-loader/blob/master/docs/en/workflow/testing-with-mocks.md)
-[Testing with Mocks with Avoriaz](https://www.coding123.org/mock-vuex-in-vue-unit-tests/)
-
-[Testing language example](https://github.com/cbrown-tribpub/karma-browserify-vuejs/blob/master/tests/example.spec.js)
-
-
+* [Testing Vuex-Dependent Vue.js Components](https://alligator.io/vuejs/testing-vuex-vue/)
+* [VueJS unit tests](https://github.com/vuejs/vue/tree/dev/test/unit/features/options)
+* [Testing component props](https://vuejs.org/v2/guide/unit-testing.html#Writing-Testable-Components)
+* [Testing component data](https://alligator.io/vuejs/unit-testing-karma-mocha/)
+* [Testing with Mocks](https://github.com/vuejs/vue-loader/blob/master/docs/en/workflow/testing-with-mocks.md)
+* [Testing with Mocks with Avoriaz](https://www.coding123.org/mock-vuex-in-vue-unit-tests/)
+* [Testing language example](https://github.com/cbrown-tribpub/karma-browserify-vuejs/blob/master/tests/example.spec.js)
 
 
 
