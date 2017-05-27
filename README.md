@@ -11,6 +11,8 @@ A big ol' list of VueJS stuff
 
 ## Great resources
 
+* [VueJS Unit Tests](https://github.com/vuejs/vue/tree/dev/test/unit/features/options)
+
 * [Testing Vuex-Dependent Vue.js Components](https://alligator.io/vuejs/testing-vuex-vue/)
 * [VueJS unit tests](https://github.com/vuejs/vue/tree/dev/test/unit/features/options)
 * [Testing component props](https://vuejs.org/v2/guide/unit-testing.html#Writing-Testable-Components)
